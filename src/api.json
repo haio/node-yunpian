@@ -1,0 +1,17 @@
+{
+  "user": {
+    "show": "https://sms.yunpian.com/v1/user/get.json",
+    "update": "https://sms.yunpian.com/v1/user/set.json"
+  },
+  "sms": {
+    "send": "https://sms.yunpian.com/v1/sms/send.json",
+    "sendWithTemplate": "https://sms.yunpian.com/v1/sms/tpl_send.json",
+    "getReplies": "https://sms.yunpian.com/v1/sms/get_reply.json",
+    "getRecords": "https://sms.yunpian.com/v1/sms/get_record.json",
+    "getBlackWords": "https://sms.yunpian.com/v1/sms/get_black_word.json",
+    "multiSend": "https://sms.yunpian.com/v1/sms/multi_send.json"
+  },
+  "voice": {
+    "send": "https://voice.yunpian.com/v1/voice/send.json"
+  }
+}

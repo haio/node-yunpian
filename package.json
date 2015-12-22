@@ -1,0 +1,46 @@
+{
+  "name": "node-yunpian",
+  "version": "1.0.1",
+  "description": "Yunpian api",
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "eslint src tools",
+    "clean": "babel-node tools/run clean",
+    "bundle": "babel-node tools/run bundle",
+    "build": "babel-node tools/run build --release",
+    "serve": "babel-node tools/run serve",
+    "start": "babel-node tools/run start"
+  },
+  "author": "haio",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.8.1",
+    "eslint-plugin-react": "^3.11.3",
+    "lodash": "^3.10.1",
+    "source-map-support": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^5.4.0",
+    "browser-sync": "^2.10.0",
+    "del": "^2.2.0",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-loader": "^1.1.1",
+    "file-loader": "^0.8.4",
+    "gaze": "^0.5.2",
+    "glob": "^6.0.1",
+    "json-loader": "^0.5.3",
+    "lodash.merge": "^3.3.2",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "replace": "^0.3.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-middleware": "^1.4.0"
+  },
+  "keywords": [
+    "云片",
+    "yunpian"
+  ]
+}
